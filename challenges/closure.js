@@ -16,7 +16,7 @@ function myFunction() {
 }
 myFunction();
 
-// Explanation: 
+// Explanation: can access outside from inside, but not inside from outside
 
 
 /* Task 2: Counter */

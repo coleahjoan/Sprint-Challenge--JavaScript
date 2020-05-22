@@ -26,11 +26,22 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
-2. Explain the difference between a callback and a higher order function.
+.forEach does a provided function one time for each element within an array; .map makes a new array from calling each function on each element in the array 
 
-3. What is closure?
+2. Explain the difference between a callback and a higher order function. 
+
+Higher order function accepts another function as an argument; callback is the function passed to the higher order function to be called
+
+3. What is closure? 
+
+a function that keeps reference to variables from its parent's scope even after the parent has returned
 
 4. Describe the four rules of the 'this' keyword.
+
+-Window/global object binding - value of this is the console object
+-Implicit binding - object before the dot is this
+-New binding - object that is created and returned by the constructor function
+-Explicit binding - this is explicity defined used call or apply method
 
 5. Why do we need super() in an extended class?
 
